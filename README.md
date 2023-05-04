@@ -22,6 +22,7 @@ Source code and data for "MTrsDRP: interpretable molecular self-attention transf
  - torch==1.10.2+cu113
  - python==3.8.3
  - rdkit==2022.3.3
+ - deepchem==2.4.0
  - pandas==1.4.3
  - numpy==1.21.4
  - scipy==1.8.1

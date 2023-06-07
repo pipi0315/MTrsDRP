@@ -1,22 +1,22 @@
 # MTrsDRP
 Source code and data for "MTrsDRP: interpretable molecular self-attention transformer based on multi-omics for drug response prediction in cancer cell lines"
 ## Data
-- Cell_line_RMA_proc_basalExp.csv -
-- Cell_line_RMA_proc_basalExp.txt -
-- Cell_list.csv -
+- Cell_line_RMA_proc_basalExp.csv -Gene expression data used for model training.
+- Cell_line_RMA_proc_basalExp.txt -Gene expression data used for model training.
+- Cell_list.csv -List of cancer cell line data information.
 - drug_smiles.csv -Contains information about all drug smiles.
 - Druglist.csv -All drugs involved in the training of the model.
-- METH_CELLLINES_BEMs_PANCAN.csv -
-- PANCANCER_Genetic_feature.csv -
-- PANCANCER_IC.csv -
-- pychem_cid.csv -
-- small_molecule.csv -
-- unknow_drug_by_pychem.csv-
+- METH_CELLLINES_BEMs_PANCAN.csv -DNA methylation data used for model training.
+- PANCANCER_Genetic_feature.csv -Genomic mutation data used for model training.
+- PANCANCER_IC.csv -Drug response data for known cancer cell lines in the GDSC2 database.
+- pychem_cid.csv -pychem cid information for model training drugs.
+- small_molecule.csv -Small molecule information for model training drugs.
+- unknow_drug_by_pychem.csv-No drugs listed for pychem cid.
 ## Source codes
-- Data_encoding.py:
-- Model_training.py:
-- Model_utils.py:
-- Model_validation.py:
+- Data_encoding.py:The drug data and cancer cell line data are encoded into pytorch tensor format for subsequent model training. Partitioning of the data into training, test and validation sets will also be completed.
+- Model_training.py:Contains the overall framework for the model, using drug data and cancer cell line data for drug response prediction.
+- Model_utils.py:Function call support for the data encoding, model training and model validation sections of the code.
+- Model_validation.py:The trained model is validated to check the generalisation and accuracy of the model.
 ## Requirements
 >requirements.yaml contains all the installation packages required for the model runtime environment
  - torch==1.10.2+cu113

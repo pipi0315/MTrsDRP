@@ -1,6 +1,7 @@
 # MTrsDRP
 Source code and data for "MTrsDRP: interpretable molecular self-attention transformer based on multi-omics for drug response prediction in cancer cell lines"
 ## Data
+- Releases -Some data is available inside Releases due to size restrictions.
 - Cell_line_RMA_proc_basalExp.csv -Gene expression data used for model training.
 - Cell_line_RMA_proc_basalExp.txt -Gene expression data used for model training.
 - Cell_list.csv -List of cancer cell line data information.

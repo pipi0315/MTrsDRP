@@ -20,6 +20,7 @@ Source code and data for "MTrsDRP: interpretable molecular self-attention transf
 - Model_validation.py:The trained model is validated to check the generalisation and accuracy of the model.
 ## Requirements
 >requirements.yaml contains all the installation packages required for the model runtime environment
+ - Operating environment: Linux
  - torch==1.10.2+cu113
  - python==3.8.3
  - rdkit==2022.3.3

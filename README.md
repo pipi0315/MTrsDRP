@@ -21,7 +21,7 @@ Source code and data for "MTrsDRP: interpretable molecular self-attention transf
 ## Requirements
 >requirements.yaml contains all the installation packages required for the model runtime environment
  - Operating environment: Linux
- - torch==1.10.2+cu113
+ - torch==1.10.2+cu114
  - python==3.8.3
  - rdkit==2022.3.3
  - deepchem==2.4.0
@@ -33,9 +33,9 @@ Source code and data for "MTrsDRP: interpretable molecular self-attention transf
  - torch-scatter==2.0.9
  - torch-sparse==0.6.12
  - torch-spline-conv==1.2.1
- - torchaudio==0.10.2+cu113
+ - torchaudio==0.10.2+cu114
  - torchsummary==1.5.1
- - torchvision==0.11.3+cu113
+ - torchvision==0.11.3+cu114
  # Step-by-step running:
  ## 1. Create data in pytorch tensor format
      python Data_encoding.py

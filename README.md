@@ -4,8 +4,8 @@ Source code and data for "MTrsDRP: interpretable molecular self-attention transf
 - Cell_line_RMA_proc_basalExp.csv -
 - Cell_line_RMA_proc_basalExp.txt -
 - Cell_list.csv -
-- drug_smiles.csv -
-- Druglist.csv -
+- drug_smiles.csv -Contains information about all drug smiles.
+- Druglist.csv -All drugs involved in the training of the model.
 - METH_CELLLINES_BEMs_PANCAN.csv -
 - PANCANCER_Genetic_feature.csv -
 - PANCANCER_IC.csv -
